@@ -1,0 +1,84 @@
+/**
+ * Nothing OS Monochrome Design Tokens
+ * Target reference: 1080x2400 portrait display (9:20 aspect ratio)
+ * Strict Monochrome / Grayscale aesthetic
+ */
+
+:root {
+  /* --- Colors (Pure Grayscale Palette) --- */
+  --color-black: #000000;
+  --color-surface-dark: #141414;
+  --color-surface-dark-elevated: #1e1e1e;
+  --color-surface-dark-card: #141414;
+  --color-surface-light: #E9E7E2;
+  --color-surface-light-hover: #DCD9D3;
+  --color-surface-light-card: #E9E7E2;
+  --color-surface-light-inverted: #141414;
+  
+  --color-text-primary-on-light: #000000;
+  --color-text-secondary-on-light: #555555;
+  --color-text-tertiary-on-light: #777777;
+  
+  --color-text-primary-on-dark: #FFFFFF;
+  --color-text-secondary-on-dark: #A0A0A0;
+  --color-text-tertiary-on-dark: #666666;
+
+  --color-border-subtle: rgba(255, 255, 255, 0.12);
+  --color-border-light-subtle: rgba(0, 0, 0, 0.08);
+  --color-divider-dotted: #999999;
+
+  --color-track-light: #CCCCCC;
+  --color-track-dark: #333333;
+  --color-fill-light-card: #000000;
+  --color-fill-dark-card: #FFFFFF;
+
+  --color-dot-indicator-active: #FFFFFF;
+  --color-dot-indicator-inactive: rgba(255, 255, 255, 0.35);
+
+  /* --- Spacing & Metrics --- */
+  --screen-margin: 20px;
+  --card-gutter: 16px;
+  --status-bar-height: 48px;
+  --dock-height: 84px;
+  --dock-button-size: 64px;
+  --dock-icon-size: 28px;
+  --card-padding-sm: 14px;
+  --card-padding-md: 18px;
+  --card-padding-lg: 20px;
+
+  /* --- Border Radii --- */
+  --radius-card: 28px;
+  --radius-card-sm: 20px;
+  --radius-dock-button: 9999px;
+  --radius-pill: 9999px;
+  --radius-bar: 4px;
+  --radius-dot: 50%;
+  --radius-phone-bezel: 52px;
+
+  /* --- Typography --- */
+  --font-family-grotesk: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-dot-matrix: 'Doto', 'Silkscreen', 'Courier New', monospace;
+  --font-family-serif: 'Playfair Display', Georgia, serif;
+
+  --font-size-hero-clock: 64px;
+  --font-size-hero-date: 18px;
+  --font-size-display-temp: 42px;
+  --font-size-display-battery: 32px;
+  --font-size-display-focus: 28px;
+  --font-size-card-title: 15px;
+  --font-size-card-body: 13px;
+  --font-size-card-caption: 11px;
+  --font-size-status-bar: 14px;
+  --font-size-dock-label: 11px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* --- Transitions & Timing --- */
+  --transition-tap: 0.12s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-card-inversion: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-drawer: 0.38s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-page: 0.32s cubic-bezier(0.2, 0.9, 0.2, 1);
+}

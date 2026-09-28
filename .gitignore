@@ -1,0 +1,39 @@
+# =============================================================================
+# E-ink OS Launcher — .gitignore
+# =============================================================================
+
+# ── Android / Gradle ──────────────────────────────────────────────────────────
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── OS Files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Build outputs ─────────────────────────────────────────────────────────────
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ── Node (if any web tooling is added later) ──────────────────────────────────
+node_modules/
+
+# ── Secrets ───────────────────────────────────────────────────────────────────
+*.keystore
+*.jks
+google-services.json
